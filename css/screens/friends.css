@@ -36,3 +36,27 @@
   align-items: center;
   color: var(--gray);
 }
+
+@keyframes splashAnimation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 130px;
+  z-index: 3;
+  animation: splashAnimation 0.7s ease-in-out 1.5s forwards;
+}

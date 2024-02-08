@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 11000vh;
+  height: 150vh;
 }
 
 #chat-screen .alt-screen-header {
@@ -45,6 +45,8 @@
 .message-row img {
   width: 50px;
   height: 50px;
+  border-radius: 20px;
+  background-color: rgb(244, 185, 134);
 }
 
 .message__info {

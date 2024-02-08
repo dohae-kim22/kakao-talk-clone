@@ -1,3 +1,15 @@
+@keyframes badgeAnimation {
+  0% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: none;
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
 .badge {
   display: flex;
   width: 26px;
@@ -8,4 +20,5 @@
   color: white;
   background-color: tomato;
   font-size: 13px;
+  animation: badgeAnimation 1s ease infinite;
 }
