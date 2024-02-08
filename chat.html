@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat - KakaoTalk</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+        <!-- <img src="/assets/images/wifi.svg" alt="wifi" /> -->
+      </div>
+      <div class="status-bar__column">
+        <span>08:27</span>
+      </div>
+      <div class="status-bar__column">
+        <span>95%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-screen-header">
+      <div class="alt-screen-header--column">
+        <a href="#" onclick="goBack()">
+          <i class="fa-solid fa-chevron-left fa-lg"></i
+        ></a>
+      </div>
+      <div class="alt-screen-header--column">
+        <span>Rikiki</span>
+      </div>
+      <div class="alt-screen-header--column">
+        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+        <i class="fa-solid fa-bars fa-lg"></i>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Thursday, February 8, 2024</div>
+
+      <div class="message-row">
+        <img src="assets/images/kakaotalk-logo.svg" alt="profile picture" />
+        <div class="message-row__content">
+          <span class="message__author">Rikiki</span>
+          <div class="message__info">
+            <span class="message__bubble">Hello! How are you doing?</span>
+            <span class="message__time">09:22</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Great! And you?</span>
+            <span class="message__time">09:22</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="message-input">
+      <div class="message-input--column">
+        <i class="fa-regular fa-square-plus"></i>
+      </div>
+      <div class="message-input--column">
+        <input type="text" />
+        <div class="message-input--buttons">
+          <i class="fa-regular fa-face-grin-hearts"></i>
+          <button>
+            <i class="fa-solid fa-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/c6f63a1180.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>

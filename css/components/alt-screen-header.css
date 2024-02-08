@@ -3,16 +3,26 @@
   justify-content: center;
   align-items: center;
   padding: 50px var(--horizontal-space) 25px var(--horizontal-space);
+  z-index: 1;
 }
 
 .alt-screen-header--column {
   font-size: 20px;
   font-weight: 500;
-}
-.alt-screen-header--column:first-child {
-  margin-right: auto;
+  width: 33%;
 }
 
-.alt-screen-header--column:last-child {
-  margin-left: auto;
+.alt-screen-header--column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.alt-screen-header--column:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  i {
+    margin-left: 15px;
+  }
 }

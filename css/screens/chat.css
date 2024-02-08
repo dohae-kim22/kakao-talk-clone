@@ -1,0 +1,131 @@
+#chat-screen {
+  background-color: #abc1d1;
+  height: 11000vh;
+}
+
+#chat-screen .alt-screen-header {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #abc1d1;
+  top: 0;
+}
+
+.main-chat {
+  margin-top: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat__timestamp {
+  text-align: center;
+  color: white;
+  padding: 7px;
+  border-radius: 15px;
+  background-color: rgba(156, 152, 152, 0.621);
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.message-row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.message-row__content {
+  margin-left: 10px;
+}
+
+.message__author {
+  color: var(--gray);
+}
+
+.message-row img {
+  width: 50px;
+  height: 50px;
+}
+
+.message__info {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+
+.message__bubble {
+  background-color: white;
+  padding: 15px 10px;
+  border-radius: 15px;
+  border-top-left-radius: 0;
+}
+
+.message__time {
+  font-size: 13px;
+  margin-left: 5px;
+  color: var(--gray);
+}
+
+.message-row--own {
+  justify-content: flex-end;
+}
+
+.message-row--own .message__info {
+  flex-direction: row-reverse;
+}
+
+.message-row--own .message__bubble {
+  background-color: var(--yellow);
+  margin-left: 5px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 0;
+}
+
+.message-input {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  padding: 5px;
+}
+
+.message-input--column i {
+  font-size: 25px;
+}
+
+.message-input--column:first-child {
+  width: 10%;
+}
+
+.message-input--column:last-child {
+  position: relative;
+  width: 90%;
+}
+
+.message-input--column:last-child input {
+  box-sizing: border-box;
+  width: 95%;
+  height: 35px;
+  border-radius: 25px;
+  border: var(--main-border);
+  font-size: 20px;
+  padding: 0 15px;
+}
+
+.message-input--column button {
+  background-color: var(--yellow);
+  border: none;
+  border-radius: 50%;
+}
+
+.message-input--buttons {
+  position: absolute;
+  right: 22px;
+  top: 4px;
+}
+
+.fa-square-plus {
+  padding-left: 5px;
+}
