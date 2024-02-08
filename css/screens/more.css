@@ -1,0 +1,39 @@
+.more {
+  margin-top: 25px;
+}
+
+.more-suggestions {
+  border-top: var(--main-border);
+  padding-top: 30px;
+  margin-top: 15px;
+}
+
+.more-suggestions__title {
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+.more-suggestions__apps {
+  margin: 25px 0;
+  display: flex;
+}
+
+.more-suggestions__app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+
+.more-suggestions__app-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.more-suggestions__app-text {
+  font-size: 12px;
+  margin-top: 8px;
+  color: var(--gray);
+}
