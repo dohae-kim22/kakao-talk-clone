@@ -7,4 +7,6 @@ You can check the [DEMO](https://capable-bunny-ba130a.netlify.app/) here! 🚀
 
 <img width="375" alt="Screenshot 2024-02-09 at 01 06 50" src="https://github.com/dohae-kim22/kakao-talk-clone/assets/149057689/a0c16f1a-08d2-43fe-b248-f1f928635f5d">
 
+<img width="374" alt="Screenshot 2024-02-09 at 01 17 01" src="https://github.com/dohae-kim22/kakao-talk-clone/assets/149057689/ec192451-06c9-4c06-bbf7-fbc998ba5138">
+
 <img width="373" alt="Screenshot 2024-02-09 at 01 15 32" src="https://github.com/dohae-kim22/kakao-talk-clone/assets/149057689/f4f82d7b-9c67-4438-a740-4800e165590e">
