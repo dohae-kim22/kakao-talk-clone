@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 150vh;
+  height: 100vh;
 }
 
 #chat-screen .alt-screen-header {
@@ -9,6 +9,10 @@
   box-sizing: border-box;
   background-color: #abc1d1;
   top: 0;
+}
+
+#chat-screen .status-bar {
+  background-color: #abc1d1;
 }
 
 .main-chat {
@@ -120,12 +124,15 @@
   background-color: var(--yellow);
   border: none;
   border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: black;
 }
 
 .message-input--buttons {
   position: absolute;
   right: 22px;
-  top: 4px;
+  top: 3px;
 }
 
 .fa-square-plus {

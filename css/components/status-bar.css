@@ -8,6 +8,7 @@
   width: 100%;
   z-index: 2;
   font-size: 15px;
+  background-color: white;
 }
 
 .status-bar__column {
