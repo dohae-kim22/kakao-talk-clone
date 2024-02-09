@@ -106,7 +106,6 @@
 }
 
 .message-input--column:last-child {
-  position: relative;
   width: 90%;
 }
 
@@ -117,7 +116,7 @@
   border-radius: 25px;
   border: var(--main-border);
   font-size: 20px;
-  padding: 0 15px;
+  padding: 0 65px 0 15px;
 }
 
 .message-input--column button {
@@ -127,13 +126,17 @@
   width: 30px;
   height: 30px;
   color: black;
-  text-align: center;
+  margin-left: 5px;
 }
 
 .message-input--buttons {
   position: absolute;
-  right: 22px;
-  top: 3px;
+  top: 0;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 10px;
 }
 
 .fa-square-plus {
